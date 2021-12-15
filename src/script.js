@@ -22,6 +22,13 @@ const connecter = async () => {
       return result;
     });
     console.log(info);
+    const infos = courseinfo.map((p) =>{
+      let result = [];
+      result.courses = {label:`${p.label}`, volumne:`${p.volumne}`}
+
+      return result;
+    });
+    console.log(infos);
   } catch (e) {
     console.error(e.massage);
   }
