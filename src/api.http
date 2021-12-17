@@ -1,0 +1,41 @@
+###01
+GET http://localhost:3000/participants
+
+###02
+
+GET http://localhost:3000/participants/:id
+
+###03
+
+POST http://localhost:3000/participants
+
+###04
+
+DELETE http://localhost:3000/participants/:id
+
+###05
+
+PATCH http://localhost:3000/participants/:id
+
+###06
+
+GET http://localhost:3000/courses
+
+###07
+
+GET http://localhost:3000/courses/:id
+
+###08
+
+POST http://localhost:3000/courses
+
+###09
+
+DELETE http://localhost:3000/courses/:id
+
+###10
+
+PATCH http://localhost:3000/courses/:id
+
+###11
+GET http://localhost:3000/participants/courses
